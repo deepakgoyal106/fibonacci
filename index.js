@@ -1,6 +1,6 @@
 //Fibonacci Function
 function fibSeries(x){
-  if(x > 1){ //option if condition 
+  if(x > 0){ //option if condition 
     var num1 = 0;
     var num2 = 1;
     
@@ -16,4 +16,4 @@ function fibSeries(x){
     console.log(result);
   }
 }
-fibSeries(3);
+fibSeries(1);
