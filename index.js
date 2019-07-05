@@ -8,7 +8,7 @@ function fibSeries(x){
     
     for(var i = 0; i < x; i++){
       var numTotal = num1 +num2;
-      if(numTotal < x)result += ', ' + numTotal;
+      if(numTotal <= x)result += ', ' + numTotal;
       else break;
       num1 = num2;
       num2 = numTotal;
